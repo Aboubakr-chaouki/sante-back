@@ -1,0 +1,11 @@
+twig:
+  default_path: "%kernel.project_dir%/templates"
+
+when@test:
+  twig:
+    strict_variables: true
+
+framework:
+  # Ajoutez cette ligne si elle n'existe pas
+  assets:
+    base_urls: "http://localhost:8000"
