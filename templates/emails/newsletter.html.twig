@@ -14,11 +14,12 @@
             padding: 0;
             width: 100%;
             height: 100%;
+            background-color: white;
         }
         .container {
             width: 100%;
             max-width: 500px;
-            background-color: #ffffff;
+            background-color: white;
             margin-left: auto;
             margin-right: auto;
         }
@@ -184,11 +185,12 @@
             margin-top: 10px;
         }
     </style>
+    
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <img src="./images/vaccin.jpg" alt="Newsletter Image">
+            <img src="{{ asset('images/vaccin.jpg') }}" alt="Newsletter Image">
             <h2>Population adolescente : comment les protéger ?</h2>
             <div class="container-title">
                 <div class="title">
@@ -213,10 +215,10 @@
         </div>
         <div class="container-collab">
         <span>Avec le soutien institutionnel de</span>
-        <img src="./images/Image Pfizer.png" width="80" height="50" alt="logo pfizer">
+        <img src="{{ asset('images/ImagePfizer.png') }}" width="80" height="50" alt="logo pfizer">
         </div>
         <div class="footer">
-            <p>Vous recevez cet e-mail car vous avez accepté de recevoir des messages d<a href="#">egora.fr</a>.
+            <p>Vous recevez cet e-mail car vous avez accepté de recevoir des messages d'<a href="#">egora.fr</a>.
                 Le site <a href="#">www.egora.fr</a> est édité par la société Global Média Santé.
                 SAS au capital de 4 289 852 € | RCS Nanterre B422 422 063
                 Tour Voltaire - 1, Place des Degrés CS 80235 Puteaux | 92059 Paris La Défense
